@@ -1,0 +1,2 @@
+SELECT * FROM STUDY_SET WHERE owner_id = '5' AND 
+SELECT * FROM APP_USER WHERE user_id = '5';
