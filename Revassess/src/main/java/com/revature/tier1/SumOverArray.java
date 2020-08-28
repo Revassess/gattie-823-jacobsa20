@@ -12,14 +12,9 @@ public class SumOverArray {
 //			for (int i : arr) {
 //				sum = sum + i;
 //			}
-		if (arr.equals(0)) {
-			return 0;
-		} else {
-			while (true) {
-				int suma = IntStream.of(arr).sum();
-				return suma;
-			}
-
+		while (true) {
+			int suma = IntStream.of(arr).sum();
+			return suma;
 		}
 
 	}
