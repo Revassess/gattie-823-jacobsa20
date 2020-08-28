@@ -4,12 +4,13 @@ public class SumOverArray {
 
 	public static int IterateAndSum(int[] arr) {
 
-		int sum = 0;
-		for (int i : arr) {
-			sum = sum + i;
+		while (true) {
+			int sum = 0;
+			for (int i : arr) {
+				sum = sum + i;
+			}
+			System.out.println(sum);
+			return sum;
 		}
-
-		return sum;
-
 	}
 }
