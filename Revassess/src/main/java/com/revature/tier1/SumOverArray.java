@@ -5,17 +5,20 @@ import java.util.stream.IntStream;
 public class SumOverArray {
 
 	public static int IterateAndSum(int[] arr) {
-		if (arr.equals(null)) {
+		if (arr.length==0) {
 			return 0;
 		}
-//		int sum = 0;
-//		while (true) {
-//
-//			for (int i : arr) {
-//				sum = sum + i;
-//			}
-		int suma = IntStream.of(arr).sum();
-		return suma;
+		int sum1 = 0;
+		for (int i : arr) {
+			sum1 = sum1 + i;
+
+		}
+		return sum1;
+//		try(arr.length == 0){
+//			return 0;
+//		}catch(Exception e) {
+//			e.printStackTrace();
+//		}
 
 	}
 

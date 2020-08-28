@@ -15,6 +15,7 @@ public class NumberSumLength {
 			//newnum = newnum.pow(num);
 		}
 		
+		
 
 		return false;
 	}
